@@ -7,7 +7,7 @@ import java.util.Collections;
  * @Author: mzy
  * @Date: 2019-1-22 18:00
  */
-public class Universitydemo {
+public class Universitydemo{
     public static void main(String[] args) {
         University t1=new University("北京师范大学珠海学院",25000);
         University t2=new University("北京理工大学珠海学院",21000);

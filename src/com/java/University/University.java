@@ -9,7 +9,7 @@ import java.util.Collections;
  */
 public class University  implements Comparable{
     String uniName;  //学校名称
-    int population;     //学生人数
+    int population;    //学生人数
     University(){
     }
     University(String uniName,int population){
