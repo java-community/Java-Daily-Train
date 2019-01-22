@@ -10,7 +10,7 @@ public class Out_In_Put {
     /**
      * @输入流和输出流
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         try{
             //构造一个BufferedReader对象
             File f=new File("myfile.txt");
