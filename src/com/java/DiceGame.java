@@ -9,7 +9,7 @@ public class DiceGame {
      * 编写程序模拟掷骰子游戏
      * 说明:统计掷5000次,两个骰子的点数之和
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         int[] a = {0,0,0,0,0,0,0,0,0,0,0};
         for (int i = 0; i <5000; i++) {
             int x=(int)(Math.random()*6);x=x+1;
