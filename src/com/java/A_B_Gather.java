@@ -11,7 +11,7 @@ public class A_B_Gather {
     /**
      * @编写一个应用程序输出A和B交集并集和差集
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         //
         HashSet A=new HashSet();
         A.add(new Integer(1));
