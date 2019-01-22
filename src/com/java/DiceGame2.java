@@ -10,7 +10,7 @@ public class DiceGame2 {
 /**
  * @编写程序模拟掷骰子游戏
  */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] a = new int[11];//老师说已初始化
         Random r=new Random();
         for (int i = 1; i <=5000; i++) {
