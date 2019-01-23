@@ -27,6 +27,13 @@ public class Type_Length {
         System.out.println("最大值：Integer.MAX_VALUE=" + Integer.MAX_VALUE);
         System.out.println();
 
+        // Integer
+        System.out.println("基本类型：Integer 二进制位数：" + Integer.SIZE);
+        System.out.println("包装类：java.lang.Integer");
+        System.out.println("最小值：Integer.MIN_VALUE=" + Integer.MIN_VALUE);
+        System.out.println("最大值：Integer.MAX_VALUE=" + Integer.MAX_VALUE);
+        System.out.println();
+
         // long
         System.out.println("基本类型：long 二进制位数：" + Long.SIZE);
         System.out.println("包装类：java.lang.Long");
@@ -57,5 +64,6 @@ public class Type_Length {
         // 以数值形式而不是字符形式将Character.MAX_VALUE输出到控制台
         System.out.println("最大值：Character.MAX_VALUE="
                 + (int) Character.MAX_VALUE);
+
     }
 }
