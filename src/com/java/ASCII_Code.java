@@ -11,8 +11,8 @@ package com.java;
  */
 public class ASCII_Code {
     public void A(char ch){
-        int iTmp=(int)ch;
-        System.out.println(ch+"的Ascii码是"+iTmp);
+        int Tmp=(int)ch;
+        System.out.println(ch+"的Ascii码是"+Tmp);
     }
 
     public static void main(String[] args) {
