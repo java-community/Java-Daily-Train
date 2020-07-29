@@ -32,7 +32,7 @@ public class ListMapSortTest {
 
         //初始化
         A.put("time", "2020-09-01 12:12:00");
-        B.put("time", "2020-09-02 12:12:01");
+        B.put("time", "2020-09-02 13:12:01");
         C.put("time", "2020-09-02 12:12:00");
         D.put("time", "2020-09-03 12:12:00");
         E.put("time", "2020-09-04 12:12:00");
@@ -41,6 +41,14 @@ public class ListMapSortTest {
         listMap.add(C);
         listMap.add(D);
         listMap.add(E);
+
+        //排序前，打印输出
+        System.out.println("排序前，打印输出----开始----");
+        for (Map<String, Object> map : listMap) {
+            for (String key : map.keySet()) {
+                System.out.println(key + ":" + map.get(key));
+            }
+        }
 
         //使用for循环，按最新的时间进行排序
         for (int i = 0; i < listMap.size(); i++) {
@@ -52,7 +60,8 @@ public class ListMapSortTest {
                 }
             }
         }
-        //打印输出
+        //排序后，打印输出
+        System.out.println("排序后，打印输出----开始----");
         for (Map<String, Object> map : listMap) {
             for (String key : map.keySet()) {
                 System.out.println(key + ":" + map.get(key));
